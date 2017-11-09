@@ -61,7 +61,7 @@ me=me/44;
 fprintf('neural networks using past close mean error =%d\n',me);
 
 
-%%umesh regression
+%%regression
 dataset=[open(1:200);low(1:200);high(1:200)];
 y=[close(1:200)];
 yt=transpose(y);
